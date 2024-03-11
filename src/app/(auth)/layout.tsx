@@ -1,6 +1,6 @@
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="flex-center min-h-screen w-full bg-primary-50 bg-dotted-pattern bg-cover bg-fixed bg-center">
+    <div className='tw-flex-center tw-min-h-screen tw-w-full tw-bg-primary-50 tw-bg-dotted-pattern tw-bg-cover tw-bg-fixed tw-bg-center'>
       {children}
     </div>
   );
