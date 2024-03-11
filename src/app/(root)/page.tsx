@@ -1,3 +1,5 @@
+import { Button } from '@/components/ui/button';
+
 export default function Home() {
   return (
     <>
@@ -11,6 +13,7 @@ export default function Home() {
               Book and learn helpful tips from 3,168+ mentors in world-class
               companies with our global community.
             </p>
+            <Button>Explore Now</Button>
           </div>
           {/* <Image
             src='/assets/images/hero.png'
